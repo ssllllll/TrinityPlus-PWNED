@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+TweakOrder: 0
+MixinConfigs: mixins.trinity.json
+FMLCorePluginContainsFMLMod: true
+FMLAT: trinity_at.cfg
+TweakClass: org.spongepowered.asm.launch.MixinTweaker
+ForceLoadAsMod: true
+FMLCorePlugin: me.leon.trinity.mixins.MixinLoaderForge
+
